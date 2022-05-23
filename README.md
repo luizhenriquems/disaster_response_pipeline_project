@@ -27,16 +27,17 @@ The dataset was provided by Figure Eight and its splited into two files: message
    - run.py  # Flask file that runs app
 
 - data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py. #code to merge and clean the data
-|- DisasterResponse.db   # database to save clean data to
+   - disaster_categories.csv  # data to process 
+   - disaster_messages.csv  # data to process
+   - process_data.py. #code to merge and clean the data
+   - DisasterResponse.db   # database to save clean data to
 
 - models
-|- train_classifier.py #code to train and tune a ML model for categorizing messages
-|- classifier.pkl  # saved model 
+   - train_classifier.py #code to train and tune a ML model for categorizing messages
+   - classifier.pkl  # saved model 
 
 - README.md
+
 
 ## Instructions
 
